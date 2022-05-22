@@ -18,6 +18,7 @@ except:
 real_link = False
 
 while real_link == False:
+    downloader_output = ''
     link = link_finder(scraped, daily)
     downloader_output = ytDownloader(link)
     cdn = downloader_output['link']
