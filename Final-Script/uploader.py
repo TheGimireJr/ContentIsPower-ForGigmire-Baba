@@ -25,14 +25,14 @@ default_categoryId = "23"
 default_tags = 'family guy,peter griffin,family guy full episodes,family guy full episodes no cuts,family guy dark humor,family guy offensive jokes,family guy underrated jokes,stewie griffin,stewie on steroids,brian griffin,family guy full nocuts,family guy new episode,family guy full episode,gigmire,daily family guy,griffins family,animated shorts,adventure time shorts,rick and morty'
 
 try:
-    f = open("D:\\a\TheGreatAutomation\TheGreatAutomation\Final-Script\Final-Script\constdesc.txt")
+    f = open("D:\\a\TheGreatAutomation\TheGreatAutomation\Final-Script\Final-Script\constdesc.txt", encoding='utf-8')
     default_description = f.read()
     f.close()
 except Exception as e:
     default_description = default_description
 
 try:
-    f = open("D:\\a\TheGreatAutomation\TheGreatAutomation\Final-Script\Final-Script\consttags.txt")
+    f = open("D:\\a\TheGreatAutomation\TheGreatAutomation\Final-Script\Final-Script\consttags.txt", encoding='utf-8')
     default_tags = f.read()
     f.close()
 except Exception as e:
