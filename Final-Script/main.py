@@ -61,7 +61,7 @@ final_title = f'{raw_title} | #Shorts #FamilyGuy #PeterGriffin #Quagmire'
 body += 'The title was created successfully...\n'
 
 # Final-Upload
-vID = uploader.main(final_title, 'D:\\a\TheGreatAutomation\TheGreatAutomation\Final-Script\Final-Script\\final.mp4', 'unlisted')
+vID = uploader.main(final_title, 'D:\\a\TheGreatAutomation\TheGreatAutomation\Final-Script\Final-Script\\final.mp4', 'public')
 
 # Creating message for each step
 body += 'The video was uploaded successfully...\n\n'
